@@ -7,7 +7,7 @@ countries.forEach(item => {
 		<td>${item.region}</td>
 		<td>${item.population}</td>
 		<td>
-			<img style="width: 4rem" src=${item.flags.png} alt="flag"/>
+			<img class="w-4-rem" src=${item.flags.png} alt="flag"/>
 		</td>
 	</tr>
 	`;
